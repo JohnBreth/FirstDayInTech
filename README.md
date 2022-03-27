@@ -5,4 +5,4 @@ I created a jpg for this for you to use as a dice game. But then I saw that ther
 
 I took that script as insporation and added a few modifications, as well as used rich formatting to add some flair!
 
-[!diagram](https://raw.githubusercontent.com/JohnBreth/FirstDayInTech/master/firstdayintech.png)
+![diagram](https://raw.githubusercontent.com/JohnBreth/FirstDayInTech/master/firstdayintech.png)
