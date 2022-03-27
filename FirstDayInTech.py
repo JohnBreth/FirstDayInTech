@@ -50,6 +50,9 @@ while ((failures < 10) and (success < 10) and (stress < 10)):
             success = 0
             stress = 0
             fakeresume = 0
+    else:
+        # Had a non-6, reset disaster count
+        fakeresume = 0
     if (what_happened < 3):
         # Tech Projects
         console.print(":notebook:Tech Projects:", end="\t")
