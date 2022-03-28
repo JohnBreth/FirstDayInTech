@@ -20,7 +20,7 @@ last_happened = 0
 
 # Let the user know what they're in for.
 console.print("")
-console.print(":white_exclamation_mark: [bold green]First Day in Tech[/bold green] :white_exclamation_mark:")
+console.print(":white_exclamation_mark: [bold green]First Day in Tech[/bold green]:white_exclamation_mark:")
 console.print("")
 sleep(1)
 
