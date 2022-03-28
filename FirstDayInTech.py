@@ -8,6 +8,7 @@
 
 import random
 from rich.console import Console
+from time import sleep
 
 console = Console(color_system="truecolor")
 
@@ -21,12 +22,18 @@ last_happened = 0
 console.print("")
 console.print(":white_exclamation_mark: [bold green]First Day in Tech[/bold green] :white_exclamation_mark:")
 console.print("")
+sleep(1)
 
 console.print("You are new to Tech,:computer:")
+sleep(0.50)
 
 console.print("You hear there are great things to learn AND")
+sleep(0.50)
 console.print("Every role pays $100K+...:moneybag:")
 console.print("")
+sleep(1)
+
+
 
 # When either failures, success, or stress hits 10, the game is over
 while ((failures < 10) and (success < 10) and (stress < 10)):
@@ -50,11 +57,13 @@ while ((failures < 10) and (success < 10) and (stress < 10)):
             success = 0
             stress = 0
             fakeresume = 0
+            sleep(5)
     else:
         # Had a non-6, reset disaster count
         fakeresume = 0
     if (what_happened < 3):
         # Tech Projects
+        sleep(3)
         console.print(":notebook:Tech Projects:", end="\t")
         if (event == 1):
             console.print("[bold purple]You are the SME on something you know nothing about.[/bold purple]")
@@ -78,6 +87,7 @@ while ((failures < 10) and (success < 10) and (stress < 10)):
             success += 2
     elif (what_happened < 5):
         # Tech Drama
+        sleep(3)
         console.print(":weary:Tech Drama:    ", end="\t")
         if (event == 1):
             console.print("[bold bright_cyan]Mgmt. says you have to turn your camera on during chats.[/bold bright_cyan]")
@@ -99,6 +109,7 @@ while ((failures < 10) and (success < 10) and (stress < 10)):
             stress += 2
     else:
         # Tech Community
+        sleep(3)
         console.print(":gift:Tech Community:", end="\t")
         if (event == 1):
             console.print("[bold chartreuse2]You support and take part in local conferences/groups.[/bold chartreuse2]")
@@ -122,6 +133,7 @@ while ((failures < 10) and (success < 10) and (stress < 10)):
             success += 1
 
 console.print("")
+sleep(3)
 if (failures >= 10):
     console.print("[bold yellow]You are no longer fit to call yourself a 10X Engineer![/bold yellow] :pensive:")
 elif (success >= 10):
