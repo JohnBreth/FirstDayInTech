@@ -32,7 +32,9 @@ sleep(0.50)
 console.print("Every role pays $100K+...:moneybag:")
 console.print("")
 sleep(1)
-
+console.print("BUT...can you survive one day in Tech:question::question::question:")
+console.print("")
+sleep(1)
 
 
 # When either failures, success, or stress hits 10, the game is over
